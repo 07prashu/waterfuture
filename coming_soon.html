@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    body {
+            background-image: url('./img/g-min.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            
+    }
+    .box {
+            background-color: #030303a6;
+            padding: 20px;
+            border: 1px rgba(15, 15, 15, 0.699) #ddd; 
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+    }
+    .float-text {
+        animation: float 3s ease-in-out infinite;
+    }
+    @keyframes float {
+        0% {
+            transform: translateY(0px);
+        }
+        50% {
+            transform: translateY(-10px);
+        }
+        100% {
+            transform: translateY(0px);
+        }
+    }
+</style>
+</head>
+<body>
+    <div class="box">
+        <h1 class = "float-text" style = color:#ffff>Navigating the Digital Seas with Water Future!</h1>
+        <h2 class = "float-text" style = color:#ffff>Our website is in progress – stay tuned!</h2>
+    </div>
+</body>
+</html>
